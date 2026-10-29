@@ -1,9 +1,14 @@
+# Entorno virtual y temporales de Python
 CLASE_MMDD_VENV/
 __pycache__/
-*.py[cod]
+*.pyc
+# Variables de entorno y credenciales
+.env
+# Archivos de datos locales
+data/raw/*
+data/interim/*
+data/processed/*
+data/synthetic/*
+!data/**/.gitkeep
+# Checkpoints de JupyterLab
 .ipynb_checkpoints/
-.vscode/
-.idea/
-.DS_Store
-*.log
-*.tmp
